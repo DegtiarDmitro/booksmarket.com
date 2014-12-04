@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: 2px solid #2A4F6F;
+}
+
+#quit{
+    position: relative;
+    left: 100px;
+}
+
+#header {
+	border-top: 1px solid #778899;
+	height:3em;
+}
+#header .slogan {
+	font: 120% Georgia, "Times New Roman", Times, serif;
+	color: #778899;
+	background-color: transparent;
+	float: right;
+	width: 300px;
+	text-align:right;
+	margin-right: 2em;
+	margin-top: 0.5em;
+}
+#header .logo {
+	float: left;
+	width: 200px;
+	margin-left: 1.5em;
+	margin-top: 0.5em;
+}
+
+#header a {
+	font-size: medium;
+}
+
+#topmenu{
+    background-color: beige;
+    height: 60px;
+    padding-left: 100px;
+}
+
+#topmenu ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+#topmenu li{
+    margin-top: 0.3em;
+    border: rgb(125,0,0) 3px double;
+    margin-right: 5px 
+}
+
+#leftblock{
+    background-color: yellow;
+    position: absolute;
+    top: auto;
+    left: 1em;
+    width: 14em;
+    font: italic bold 15px Arial;
+}
+
+#leftblock li{
+    margin-bottom: 20px;
+}
+
+#content {
+    background-color: azure;
+    top: auto;
+	margin-left: 16em;
+	margin-right: 2em;
+	text-align: justify;
+}
+h1 {
+	font: 150% Georgia, "Times New Roman", Times, serif;
+}
+blockquote {
+	font: 70% Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+}
+h3 {
+	font: 120% Georgia, "Times New Roman", Times, serif;
+}
+ol li {
+	font-size: 90%;
+	
+}
+
+
+#content p, form {
+	font-size: 90%;
+	line-height: 1.6em; 
+	padding-left: 1.2em;
+}
+#footer{
+    position: relative;
+    top: 1em;
+    left: 40em;
+    border-top: 1px dotted #B2BCC6;
+	font: 90% Georgia, "Times New Roman", Times, serif;
+	color: #2A4F6F;
+	background-color: transparent;
+}
+
+form .block{
+	clear:both;
+	overflow:hidden;
+	padding:15px 2px 2px 160px;
+}
+form .block label{
+	white-space:nowrap;
+}
+form .block label span{
+	float:left;
+	width:9em;
+	margin:0 0 0 -160px;
+	text-align:right;
+	color:#567;
+}
